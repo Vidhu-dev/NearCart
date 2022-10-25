@@ -1,0 +1,24 @@
+.recommended{
+    padding: 0 8rem 0 8rem ;
+    height: 18rem;
+    color:#DAD2D8 ;
+    display: flex;
+    justify-content: space-between;
+    column-gap:3rem ;
+}
+
+.recommended__content{
+    margin-top: 1rem;
+    width: 32rem;
+    height: 16rem;
+    background-color: #EC9A29;
+    border-radius: 1rem;
+}
+
+
+
+/* #DAD2D8
+#143642
+#0F8B8D
+#EC9A29
+#A8201A */

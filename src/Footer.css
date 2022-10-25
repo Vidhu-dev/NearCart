@@ -1,0 +1,37 @@
+.footer__container {
+    height: 22.5rem;
+    background-color: #143642;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.footer__image{
+    margin: 1rem;
+}
+.footer__logo {
+    width: 6rem;
+}
+
+.footer__section2{
+    display: flex;
+    column-gap: 20rem;
+}
+
+li{
+    list-style: none;
+}
+.footer__bottomLine{
+    border:1px solid #DAD2D8;
+    border-radius: 1rem;
+    margin-top: -2rem;
+    width: 90rem;
+}
+
+/* #DAD2D8
+#143642
+#0F8B8D
+#EC9A29
+#A8201A */

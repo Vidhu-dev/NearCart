@@ -1,0 +1,5 @@
+.shop__template{    
+    margin : 0rem 8rem;
+    display: flex;
+    flex-flow: row wrap;
+}

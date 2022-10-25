@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="32" viewBox="0 0 40 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="40" height="32" transform="translate(-0.461)" fill="#d9d9d9"/>
+    </clipPath>
+  </defs>
+  <g id="facebook" transform="translate(0.461)" clip-path="url(#clip-path)">
+    <path id="facebook-brands" d="M40.645,16.774c0-8.91-8.952-16.129-20-16.129s-20,7.219-20,16.129c0,8.05,7.314,14.723,16.875,15.934V21.436H12.44V16.774H17.52V13.22c0-4.042,2.984-6.275,7.554-6.275a37.966,37.966,0,0,1,4.477.315v3.967H27.029c-2.484,0-3.259,1.243-3.259,2.519v3.027h5.547l-.887,4.662H23.77V32.707C33.331,31.5,40.645,24.824,40.645,16.774Z" transform="translate(-1.145 -0.805)" fill="#d9d9d9"/>
+  </g>
+</svg>

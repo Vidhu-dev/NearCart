@@ -1,0 +1,35 @@
+.shopTemplate{
+    margin: 1rem;
+    background-color: #143642;
+    height: 24rem;
+    width: 18rem;
+    border-radius: 2rem;
+    color: #DAD2D8;
+}
+
+.shopTemplate > img{
+    width: 18rem;
+    height: 10rem;
+    border-radius: 2rem 2rem 0rem 0rem ;
+}
+
+.shopTemplate__info{
+    padding: 0rem 1rem;
+}
+
+.shopTemplate__info> h4{
+    padding-top: .5rem;
+}
+
+.shopTemplate__info> p{
+    height: 4rem;
+}
+.shopTemplate__info> h6{
+    padding-top: 0.5rem;
+}
+
+/* #DAD2D8
+#143642
+#0F8B8D
+#EC9A29
+#A8201A */

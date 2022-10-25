@@ -2,20 +2,25 @@ body {
     margin: 0;
 }
 
-.header__logo {
-    color: #EC9A29;
-}
+
 
 .header__container {
+    
     background-color: #143642;
     padding-left: 8rem;
     padding-right: 8rem;
     display: flex;
+    column-gap: 1rem;
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
 
 }
+
+.header__logo {
+    color: #EC9A29;
+}
+
 
 .header__searchBar {
     width: 44rem;
@@ -30,12 +35,13 @@ body {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border: 0px;
+    background-color: #DAD2D8;
 }
 
 .header__searchBar>img {
     width: 1.5rem;
     padding-right: 1rem;
-    background-color: azure;
+    background-color: #DAD2D8;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
