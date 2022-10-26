@@ -35,7 +35,7 @@ body {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border: 0px;
-    background-color: #DAD2D8;
+    background-color: #DAD2D8;outline: none;
 }
 
 .header__searchBar>img {
@@ -51,7 +51,7 @@ body {
     column-gap: 4rem;
 }
 
-.login {
+.login__link {
     border-radius: 1rem;
     width: 7rem;
     padding-top: 7px;

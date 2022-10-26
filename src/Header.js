@@ -14,7 +14,7 @@ function Header() {
           <img src="/images/header/search.svg" alt="" />
         </div>
         <div className="header__menu">
-          <a href='' className="login">
+          <a href='' className="login__link">
             <h5>Login</h5>
           </a>
           <div className="myCart">

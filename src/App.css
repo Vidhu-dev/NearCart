@@ -4,4 +4,8 @@ body,
 html {
     font-family: 'Montserrat', sans-serif;
     background-color: #DAD2D8 ;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
 }
