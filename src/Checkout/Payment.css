@@ -1,0 +1,35 @@
+.checkout__header__login {
+    color: #0F8B8D;
+}
+
+.checkout__header__address {
+    color: #0F8B8D;
+}
+
+.checkout__header__summary {
+    color: #0F8B8D;
+}
+
+.checkout__header__payment {
+    color: #EC9A29;
+}
+
+.payment__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    padding-top: 2rem;
+
+}
+
+
+.payment__container__right>button {
+    margin-top: 2.5rem;
+    width: 20rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: .25rem;
+    background-color: #EC9A29;
+    font-size: large;
+    color: white;
+}

@@ -1,0 +1,20 @@
+.checkout__price__details {
+    background-color: #143642;
+    color: #DAD2D8;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: 0;
+    border-radius: 1rem;
+}
+
+.checkout__price__details>h5 {
+    padding-bottom: 2rem;
+}
+
+
+hr {
+    border: 0;
+    border-top: 4px dotted #EC9A29;
+
+}

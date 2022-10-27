@@ -1,0 +1,9 @@
+.checkout__header {
+    background-color: #143642;
+    color: #DAD2D8;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: .5rem 0;
+
+}
