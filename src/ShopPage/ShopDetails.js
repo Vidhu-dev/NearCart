@@ -1,5 +1,6 @@
 import React from "react";
-import './ShopDetails.css'
+import './ShopDetails.css';
+
 
 function ShopDetails() {
   return (

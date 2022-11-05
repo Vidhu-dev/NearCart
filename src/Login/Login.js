@@ -1,5 +1,7 @@
 import React from "react";
+import { renderMatches } from "react-router-dom";
 import "./Login.css";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -12,10 +14,10 @@ function Login() {
       </div>
       <div className="login__right">
         <div className="login__right__info">
-          <div className="login__header">
+          <Link className="login__header" to="/">
             <img src="../images/footer/footer__logo.png" alt="" />
             <h3>NearCart</h3>
-          </div>
+          </Link>
           <h4>Hi Welcome Back!</h4>
           <p>Email</p>
           <input type="text" name="login__email" />
@@ -23,7 +25,8 @@ function Login() {
           <input type="password" name="login__password" />
           <button type="submit"> Login</button>{" "}
           <div className="login__right__signUp">
-            <span>Don't have a account?</span> <a href="">Sign Up Here</a>
+            <span>Don't have a account?</span>{" "}
+            <Link to="/signup">Sign Up Here</Link>
           </div>
         </div>
       </div>

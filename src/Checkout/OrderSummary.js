@@ -3,6 +3,7 @@ import CheckoutHeader from './CheckoutHeader';
 import CheckoutPriceDetails from './CheckoutPriceDetails';
 import './OrderSummary.css'
 import ProductSummary from './ProductSummary';
+import {Link} from 'react-router-dom';
 
 function OrderSummary() {
   return (
@@ -16,7 +17,9 @@ function OrderSummary() {
         </div>
         <div className="order__summary__submit">
           <CheckoutPriceDetails />
-          <button type="submit">Submit and Continue</button>
+          <button id="address__submit" type="submit">
+            <Link to="/payment">Submit and Continue </Link>
+          </button>
         </div>
       </div>
     </div>

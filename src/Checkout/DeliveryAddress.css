@@ -42,7 +42,7 @@ color: #0F8B8D;
     outline: none;
 }
 
-.address___container>button {
+#address__submit {
     margin-top: 2.5rem;
     width:20rem;
     height: 2.5rem;

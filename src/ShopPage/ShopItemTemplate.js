@@ -1,5 +1,6 @@
 import React from "react";
 import "./ShopItemTemplate.css";
+import { Link } from "react-router-dom";
 
 function ShopItemTemplate() {
   return (
@@ -15,7 +16,10 @@ function ShopItemTemplate() {
       </div>
       <div className="item__button">
         <button>ADD TO CART</button>
-        <button>BUY NOW</button>
+        <button>
+          {" "}
+          <Link to="/delivery__address"> BUY NOW</Link>
+        </button>
       </div>
       <p>Product Details {">>"} </p>
     </div>

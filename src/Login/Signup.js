@@ -1,5 +1,6 @@
 import React from "react";
 import "./Login.css";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -12,13 +13,13 @@ function Login() {
       </div>
       <div className="login__right">
         <div className="login__right__info">
-          <div className="login__header">
+          <Link className="login__header" to="/">
             <img src="../images/footer/footer__logo.png" alt="" />
             <h3>NearCart</h3>
-          </div>
+          </Link>
           <h4>Hi Welcome</h4>
           <p>Name</p>
-          <input type="text"  name="login__name"/>
+          <input type="text" name="login__name" />
           <p>Email</p>
           <input type="email" name="login__email" />
           <p>Password</p>

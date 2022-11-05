@@ -2,6 +2,7 @@ import React from "react";
 import CheckoutHeader from "./CheckoutHeader.js";
 import CheckoutPriceDetails from "./CheckoutPriceDetails.js";
 import "./DeliveryAddress.css";
+import {Link} from 'react-router-dom';
 
 function DeliveryAddress() {
   return (
@@ -45,9 +46,12 @@ function DeliveryAddress() {
             <p>Alternate Phone</p>
             <input type="text" name="address__mobile2" />
           </div>
-          <button type="submit">Submit and Continue</button>
+
+          <button id="address__submit" type="submit">
+            <Link to="/order__summary">Submit and Continue </Link>
+          </button>
         </form>
-        <div lassName="address__details">
+        <div className="address__details">
           <CheckoutPriceDetails />
         </div>
       </div>
