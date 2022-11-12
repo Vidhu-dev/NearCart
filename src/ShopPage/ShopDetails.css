@@ -1,7 +1,8 @@
 .shop__details{
-    padding: 2rem 16rem;
+    /* padding: 2rem 16rem; */
     display: flex;
-    flex: row wrap;
+    /* width: 100%; */
+    /* flex: row wrap; */
     justify-content: space-around;
 }
 

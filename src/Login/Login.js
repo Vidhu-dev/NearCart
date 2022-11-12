@@ -1,9 +1,22 @@
-import React from "react";
-import { renderMatches } from "react-router-dom";
 import "./Login.css";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useNavigate, renderMatches } from "react-router-dom";
+import { auth, logInWithEmailAndPassword } from "../firebase";
+import { useAuthState } from "react-firebase-hooks/auth";
 
 function Login() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [user, loading, error] = useAuthState(auth);
+  var isDisabled = false;
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (loading) {
+      // maybe trigger a loading screen
+      return;
+    }
+    if (user) navigate("/");
+  }, [user, loading]);
   return (
     <div className="login">
       <div className="login__left">
@@ -20,10 +33,10 @@ function Login() {
           </Link>
           <h4>Hi Welcome Back!</h4>
           <p>Email</p>
-          <input type="text" name="login__email" />
+          <input type="text" name="login_email" value={email} onChange={(e) => setEmail(e.target.value)} />
           <p>Password</p>
-          <input type="password" name="login__password" />
-          <button type="submit"> Login</button>{" "}
+          <input type="password" name="login__password" value={password} onChange={(e)=>setPassword(e.target.value)} />
+          <button type="submit" disabled={isDisabled} onClick={() => {logInWithEmailAndPassword(email,password);isDisabled = true}}> Login</button>{" "}
           <div className="login__right__signUp">
             <span>Don't have a account?</span>{" "}
             <Link to="/signup">Sign Up Here</Link>

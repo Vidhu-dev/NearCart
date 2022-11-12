@@ -1,5 +1,5 @@
 .searchBar{
-    padding: 1rem 8rem ;
+    margin: 1rem 8rem ;
 }
 .searchBar__container{
     display: flex;
@@ -14,7 +14,9 @@
 }
 
 .searchBar__input>input {
+    outline: none;
     padding-left: 1rem;
+    color: #fff;
     width: 100%;
     border-radius: 1rem;
     border-top-right-radius: 0;
@@ -41,7 +43,11 @@
 .searchBar >hr {
     border: 1px solid #143642;
         border-radius: 1rem;
-        width: 104rem;
+        /* width: 104rem; */
+}
+.buy_now {
+    text-decoration: none;
+    color: #143642;
 }
 /* #DAD2D8
 #143642

@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
 import "./FontSize.css";
 import { Link } from "react-router-dom";
+import { auth, logout } from "./firebase";
 
 function Header() {
+  const curUser = auth.currentUser;
+  useEffect(() => {
+    if (curUser) {
+
+    }
+    else {
+
+    }
+  });
   return (
     <div className="header">
       <div className="header__container">
         <div className="header__logo">
           <h3>
-            <Link to="/"> NearCart</Link>
+            <Link className="logo_title" to="/">NearCart</Link>
           </h3>
         </div>
         <div className="header__searchBar">
@@ -18,10 +28,14 @@ function Header() {
         </div>
 
         <div className="header__menu">
-          <Link to="/login" className="login__link">
-            <h5>Login</h5>
+          <Link onClick={() => {
+            if (curUser) return logout();
+          }} to={(curUser) ? "/" : "/login"} className="login__link">
+            <h5>
+              {(curUser) ? "Logout" : "Login"}
+            </h5>
           </Link>
-<Link to='/'></Link>
+          <Link to='/'></Link>
           <div className="myCart">
             <img
               src="/images/header/mycart.svg"
