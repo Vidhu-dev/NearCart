@@ -5,7 +5,7 @@ import './ShopDetails.css';
 function ShopDetails() {
   return (
     <div className="shop__details">
-      <img src="" alt="" />
+      <img src="/images/shopImage.jpg" alt="" />
       <div className="shop__info">
         <h4>Test Shop Name</h4>
         <p>
