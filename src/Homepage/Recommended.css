@@ -1,16 +1,16 @@
 .recommended{
     padding: 0 8rem 0 8rem ;
-    height: 18rem;
+    /* height: 18rem; */
     color:#DAD2D8 ;
     display: flex;
     justify-content: space-between;
     column-gap:3rem ;
 }
 
-.recommended__content{
+.recommended > img{
     margin-top: 1rem;
-    width: 32rem;
-    height: 16rem;
+    width: 30%;
+    height: fit-content;
     background-color: #EC9A29;
     border-radius: 1rem;
 }
