@@ -1,6 +1,6 @@
 import React from "react";
 import "./ShopTemplate.css";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function ShopTemplate() {
   return (
@@ -12,7 +12,11 @@ function ShopTemplate() {
       />
       <div className="shopTemplate__info">
         <h4 className="shopTemplate__shopName">
-          <Link to="/shoppage" className="shoppage">Shop name</Link>
+
+
+          <Link to="/shoppage" className="shoppage">
+            Shop name
+          </Link>
         </h4>
 
         <p className="shopTemplate__categories">Shop item category details</p>
