@@ -12,7 +12,7 @@ function ShopTemplate() {
       />
       <div className="shopTemplate__info">
         <h4 className="shopTemplate__shopName">
-          <Link to="/shoppage">Shop name</Link>
+          <Link to="/shoppage">          Shop name</Link>
         </h4>
 
         <p className="shopTemplate__categories">Shop item category details</p>
