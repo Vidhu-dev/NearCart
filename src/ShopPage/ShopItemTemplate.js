@@ -17,8 +17,7 @@ function ShopItemTemplate() {
       <div className="item__button">
         <button>ADD TO CART</button>
         <button>
-          {" "}
-          <Link to="/delivery__address"> BUY NOW</Link>
+          <Link to="/delivery__address" className='buy_now'> BUY NOW</Link>
         </button>
       </div>
       <p>Product Details {">>"} </p>

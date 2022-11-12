@@ -2,6 +2,12 @@ body {
     margin: 0;
 }
 
+.logo_title {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
 
 
 .header__container {
