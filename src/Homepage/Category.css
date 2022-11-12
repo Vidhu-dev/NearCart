@@ -12,6 +12,10 @@
     border-radius: 1rem;
 }
 
+.category__content >h6{
+    color: #143642;
+}
+
 
 
 /* #DAD2D8
