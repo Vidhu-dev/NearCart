@@ -1,7 +1,6 @@
 .categories {
     padding: 0 8rem 0 8rem;
     color: #DAD2D8;
-    display: flex;
-    flex-flow: row wrap;
-    gap: 2.4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(min(8.7rem, 100%), 1fr));
 }

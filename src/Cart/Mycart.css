@@ -1,0 +1,29 @@
+
+
+
+
+.checkout__header__login {
+    color: #0F8B8D;
+}
+
+.checkout__header__address {
+    color: #0F8B8D;
+}
+
+.checkout__header__summary {
+    color: #EC9A29;
+}
+
+.order__summary__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    padding-top: 2rem;
+}
+
+.order__summary__list {
+    max-width: 60vw;
+    display: flex;
+    flex-flow: wrap;
+    gap: 2rem;
+}
