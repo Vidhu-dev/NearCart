@@ -4,8 +4,14 @@ Are you tired of going outside and buying something from nearby shops you trust?
 NearCart helps you to buy groceries, cosmetics, baby products and even clothes from nearby shops you trust. It not only reduces the time spent to go outside and buy the products, it also helps you to find out the list of products if it is available in a single shop or other shop and which is cheaper.
  
 # Screenshots
-![image](https://user-images.githubusercontent.com/79046841/154858621-fbb3bb7e-6716-4e1d-b3f3-b664a72ea882.png)
-![image](https://user-images.githubusercontent.com/79046841/154858669-905e2203-d3cd-44c6-9070-6cb2162b3aa9.png)
+![Screenshot (1)](https://user-images.githubusercontent.com/79046841/202843907-0d78fc73-cf74-4b23-ac1b-6316eb5b61fb.png)
+![Screenshot (2)](https://user-images.githubusercontent.com/79046841/202843910-317d52e4-6ac8-4bed-a876-f994e878151d.png)
+![Screenshot (3)](https://user-images.githubusercontent.com/79046841/202843912-e4b04adb-5373-49f5-a669-5ea14335a888.png)
+![Screenshot (4)](https://user-images.githubusercontent.com/79046841/202843916-493e710c-ffde-4334-a8c7-67afb75dcc00.png)
+![Screenshot (5)](https://user-images.githubusercontent.com/79046841/202843918-406ff7b3-5900-4045-917c-7620a0c71e80.png)
+![Screenshot (6)](https://user-images.githubusercontent.com/79046841/202843920-5c25f577-dfb8-4db5-a36f-ab0cc99b7b41.png)
+![Screenshot (7)](https://user-images.githubusercontent.com/79046841/202843921-74f546ea-a39c-47f2-8e0d-4c23f864f074.png)
+![Screenshot (8)](https://user-images.githubusercontent.com/79046841/202843923-e8a5a835-a1c5-45b7-895a-0123bee1c220.png)
 
 # Features Implemented
 ## Frontend
