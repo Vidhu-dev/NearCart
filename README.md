@@ -2,7 +2,11 @@
 Are you tired of going outside and buying something from nearby shops you trust? Then your wait is over, we have the solution for that, that is, NearCart.
 
 NearCart helps you to buy groceries, cosmetics, baby products and even clothes from nearby shops you trust. It not only reduces the time spent to go outside and buy the products, it also helps you to find out the list of products if it is available in a single shop or other shop and which is cheaper.
- 
+# Team Members
+- Yashvardhan Kumar (2020IMT-118)
+- Vidhu Prakash (2020IMT-115)
+- Saurabh Kant (2020IMT-089)
+- Tannu Baghel (2020IMT-105)
 # Screenshots
 ![image](https://user-images.githubusercontent.com/79046841/202844756-400203a7-52b5-4c46-a0a7-6957345be86b.png)
 ![Screenshot (2)](https://user-images.githubusercontent.com/79046841/202843910-317d52e4-6ac8-4bed-a876-f994e878151d.png)
@@ -114,8 +118,4 @@ npm run build #fails to minify
 ```
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Team Members
-- Yashvardhan Kumar (2020IMT-118)
-- Vidhu Prakash (2020IMT-115)
-- Saurabh Kant (2020IMT-089)
-- Tannu Baghel (2020IMT-105)
+
