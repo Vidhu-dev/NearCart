@@ -11,7 +11,6 @@ function Shops() {
     <div className="Shops">
       <SearchBar />
       <div className="shop__template">
-        {/* <ShopTemplate />
         <ShopTemplate />
         <ShopTemplate />
         <ShopTemplate />
@@ -28,7 +27,8 @@ function Shops() {
         <ShopTemplate />
         <ShopTemplate />
         <ShopTemplate />
-        <ShopTemplate /> */}
+        <ShopTemplate />
+        <ShopTemplate />
         {/* {collSnap.forEach((doc) => {
           <ShopTemplate data={doc.data()} />
         })} */}

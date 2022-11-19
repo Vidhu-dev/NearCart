@@ -14,6 +14,7 @@ function ShopTemplate(data) {
       <div className="shopTemplate__info">
         <h4 className="shopTemplate__shopName">
           <Link to="/shoppage" className="shoppage">
+            Shops
             {/* {data.get("name")} */}
             </Link>
         </h4>
