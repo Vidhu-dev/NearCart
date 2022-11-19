@@ -1,13 +1,13 @@
 import "./Login.css";
 import React, { useEffect, useState } from "react";
-import { Link, useNavigate, renderMatches } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { auth, logInWithEmailAndPassword } from "../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [user, loading, error] = useAuthState(auth);
+  const [user, loading] = useAuthState(auth);
   var isDisabled = false;
   const navigate = useNavigate();
   useEffect(() => {
@@ -16,7 +16,7 @@ function Login() {
       return;
     }
     if (user) navigate("/");
-  }, [user, loading]);
+  });
   return (
     <div className="login">
       <div className="login__left">

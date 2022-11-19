@@ -45,7 +45,7 @@ function Header() {
             <h6 className="myCart__number">23</h6>
           </div>
           <div className="hamburger">
-            <div class="hamburger_lines">
+            <div className="hamburger_lines">
               <span></span>
               <span></span>
               <span></span>

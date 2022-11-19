@@ -1,8 +1,9 @@
 import React from "react";
 import "./ShopTemplate.css";
-import { Link } from "react-router-dom";
+import {Link} from 'react-router-dom';
+import { DocumentSnapshot } from "firebase/firestore";
 
-function ShopTemplate() {
+function ShopTemplate(data) {
   return (
     <div className="shopTemplate">
       <img
@@ -12,11 +13,10 @@ function ShopTemplate() {
       />
       <div className="shopTemplate__info">
         <h4 className="shopTemplate__shopName">
-
-
           <Link to="/shoppage" className="shoppage">
-            Shop name
-          </Link>
+            Shops
+            {/* {data.get("name")} */}
+            </Link>
         </h4>
 
         <p className="shopTemplate__categories">Shop item category details</p>
