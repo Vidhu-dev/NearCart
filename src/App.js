@@ -8,6 +8,7 @@ import Signup from "./Login/Signup.js";
 import DeliveryAddress from "./Checkout/DeliveryAddress.js";
 import OrderSummary from "./Checkout/OrderSummary";
 import Payment from "./Checkout/Payment";
+import Mycart from "./Cart/Mycart";
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
+        <Route path="/mycart" element={<Mycart/>}></Route>
+          
         <Route path="/payment" element={<Payment/>}></Route>
           <Route path="/order__summary" element={<OrderSummary />}></Route>
           <Route
